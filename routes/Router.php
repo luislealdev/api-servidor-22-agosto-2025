@@ -44,7 +44,7 @@ class Router {
         $uri = strtok($uri, '?');
         
         // Remover el directorio base del proyecto
-        $basePath = '/api-servidor-22-agosto-2025';
+        $basePath = '/';
         if (strpos($uri, $basePath) === 0) {
             $uri = substr($uri, strlen($basePath));
         }
