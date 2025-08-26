@@ -44,7 +44,7 @@ class Router {
         $uri = strtok($uri, '?');
         
         // Remover el directorio base del proyecto
-        $basePath = '/';
+        $basePath = '/leal';
         if (strpos($uri, $basePath) === 0) {
             $uri = substr($uri, strlen($basePath));
         }
